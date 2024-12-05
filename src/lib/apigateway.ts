@@ -7,6 +7,7 @@ export const buildResponse = (statusCode: number, body: Object): APIGatewayProxy
         headers: {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Credentials': true,
+            'Content-Type': 'application/json',
         },
     };
 };
