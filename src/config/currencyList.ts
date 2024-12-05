@@ -1,0 +1,1 @@
+export let currencyList = ['AUD', 'INR', 'SGD', 'USD']
